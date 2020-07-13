@@ -1,0 +1,160 @@
+#pageHeader {
+	position: absolute;
+	left: 20%;
+	top: 20vh;
+	font-family: 'Roboto';font-size: 2vw; color: #2F2F2F;
+}
+
+.paragraph {
+	position: absolute;
+	left: 20%;
+	width: 37.25%;
+	font-family: 'Roboto';font-size: 1vw; color: #2F2F2F;
+	line-height: 3vh;
+}
+
+#paragraph1 {
+	top: 27vh;
+}
+
+#paragraph2 {
+	top: 44vh;
+}
+
+#paragraph3 {
+	top: 58vh;
+}
+
+#video {
+	top: 85vh;
+	position: absolute;
+	width: 35vw;
+	height: 40vh;
+	left: 20%;
+}
+
+#contentHead {
+	position: absolute;
+	top: 20vh;
+	left: 67.25%;
+	font-family: 'Roboto';font-size: 2vw; color: #2F2F2F;
+	text-decoration: underline;
+}
+
+#contentContainer {
+	position: absolute;
+	top: 28vh;
+	left: 58.25%;
+	width: 25vw;
+	height: 70vh;
+	background-color: transparent;
+}
+
+.element {
+	position: absolute;
+	left: 5%;
+	width: 90%;
+	height: 10vh;
+	background-color: transparent;
+	border-bottom: 0.5vh solid;
+	border-radius: 10%;
+}
+
+#element1 {
+	top: 1vh;
+}
+
+#element2 {
+	top: 14vh;
+}
+
+#element3 {
+	top: 27vh;
+}
+
+#element4 {
+	top: 40vh;
+}
+
+#element5 {
+	top: 53vh;
+}
+
+.elementImg {
+	position: absolute;
+	left: 5%;
+	width: 30%;
+	height: 80%;
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
+	border-radius: 10%;
+	top: 10%;
+}
+
+#elementImg1 {
+	background-image: url("Advanced pic.jpg");
+}
+
+#elementImg2 {
+	background-image: url("basics pic.jpg");
+}
+
+#elementImg3 {
+	background-image: url("Foundations pic.jpg");
+}
+
+#elementImg4 {
+	background-image: url("intermidiate pic.jpg");
+}
+
+#elementImg5 {
+	background-image: url("planning.jpg");
+}
+
+.elementName {
+	position: absolute;
+	top: 28%;
+	left: 45%;
+	font-family: 'Roboto';font-size: 2vw; color: #2F2F2F;
+	text-align: center;
+}
+
+.checkBox {
+	position: absolute;
+	top: 30%;
+	height: 40%;
+	width: 10%;
+	left: 80%;
+	border-style: solid;
+	background-color: transparent;
+
+}
+
+#box1 {
+	border-color: #1DBF2D;
+}
+
+#box2 {
+	border-color: #007AFF;
+}
+
+#box3 {
+	border-color: #1DBF2D;
+}
+
+#box4 {
+	border-color: #007AFF;
+}
+
+#box5 {
+	border-color: #1DBF2D;
+}
+
+#bottomBar {
+	width: 100%;
+	background-color: gray;
+	height: 6vh;
+	top: 150vh;
+	position: absolute;
+}

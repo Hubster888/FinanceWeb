@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+	<title>
+		Finances Taxes 3
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</title>
+	<body>
+		<link rel="stylesheet" href="C:\Users\rzemi\OneDrive\Desktop\web\cssPages\Finances-Taxes3-Course-Style.css">
+		<link rel="stylesheet" href="C:\Users\rzemi\OneDrive\Desktop\web\cssPages\banner.css">
+		<div class="headBanner">
+			<div id="logo" onclick="location.href = 'Welcome.html';"></div>
+			<div class="dropdown">
+				<button class="dropbtn" type="button" id="financeChoice" onclick="location.href = 'FinancesHome.html';">
+					Finance
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<div id="topDropdown">
+						<div class="innerSpace" id="innerSpace1">
+							<h2 id="coursesHead">Courses</h2>
+							<ol id="coursesList">
+								<li onclick="location.href = 'Finances-intro1-Course.html';">Introduction</li>
+								<li onclick="location.href = 'Finances-TandP1-Course.html';">Tracking And Planning</li>
+								<li onclick="location.href = 'Finances-CDB1-Course.html';">Credit, Debt and Banking</li>
+								<li onclick="location.href = 'Finances-Savings1-Course.html';">Saving</li>
+								<li onclick="location.href = 'Finances-Taxes1-Course.html';">Taxes</li>
+							</ol>
+						</div>
+						<div class="innerSpace" id="innerSpace2">
+							<h2 id="toolsHead" onclick="location.href = 'financeToolOverview.html';">Financial Tool</h2>
+						</div>
+						<div class="innerSpace" id="innerSpace3">
+							<h2 id="articlesHead">Articles</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button type="button" id="choice2" onclick="location.href = 'InvestingHome.html';">Investing</button>
+			<button type="button" id="choice3" onclick="location.href = 'EarlyStartHome.html';">Early Start</button>
+			<button type="button" id="choice4" onclick="location.href = 'RetirementHome.html';">Retirement</button>
+			<button type="button" id="choice5">Community</button>
+			<div id="tab1"></div>
+			<div id="tab2"></div>
+			<div id="tab3"></div>
+			<div id="tab4"></div>
+			<div id="tab5"></div>
+			<button type="button" id="loginButton"></button>
+		</div>
+		<h1 id="courseTitle">Taxes</h1>
+		<div id="tickBox">
+			<div id="overallTick"></div>
+		</div>
+		<hr class="rounded">
+		<h2 id="sectionTitle">3) Conclusion</h2>
+		<div class="paragraph" id="p1">
+			So now you’ve made it to the end of the taxes section I feel like you need a little extra motivation to get to work with all the tax saving tips.
+		</div>
+		<div class="paragraph" id="p2">
+			Let me tell you a story about Bob.
+		</div>
+		<div id="pic1"></div>
+		<div class="paragraph" id="p3">
+			Bob’s your average guy with an average education, your average job and still living pay check to pay check. But Bob has gained a super power, he got to work on his tax saving.
+		</div>
+		<div class="paragraph" id="p4">
+			Now Bob can get an extra income of around £1000 every year with just a little effort. You want to know how? Let's learn a little about Bob.
+		</div>
+		<div class="paragraph" id="p5">
+			Bob is a teacher earning £25,000 at the young age of 30. Since he is single with a baby boy, he is eligible for working tax credit of £2,045 per year.
+			That there is already a huge increase for him while he has also found out he can apply for a council tax reduction giving him even more disposable income.
+		</div>
+		<div class="paragraph" id="p6">
+			But Bob is not stupid, he doesn't spend all his money, instead he puts some of it into a pensions scheme while another little bit into his ISA.
+		</div>
+		<div class="paragraph" id="p7">
+			Now Bob has put a decent amount into his retirement and got an extra £1,000 per year.
+		</div>
+		<div class="paragraph" id="p8">
+			Bob’s even smarter than we thought and he had invested in apple many years ago. Now he’s looking at grabbing an extra profit of £20,000, but oh no, with the CGT he will lose £4,000.
+		</div>
+		<div class="paragraph" id="p9">
+			Using the knowledge Bob has gained he transferred half his stocks to a trusted friend.
+			Then Bob cash in the stocks and Bob pays no tax! As the split stocks are worth £10,000 each which is under the personal allowance.
+		</div>
+		<div id="pic2"></div>
+		<div class="paragraph" id="p10">
+			I’ve not only made up but have left out a lot of details out about Bob so his story may seem exaggerated.
+			But the truth is that taking effort to research and take action on your taxes can make a huge difference to your life.
+		</div>
+		<div class="paragraph" id="p11">
+			I strongly encourage you to check out some of the other articles related to saving but do extra research outside of here to get more details but remember to take action.
+		</div>
+
+		<div id="contentContainer">
+			<div class="element" id="element1" onclick="location.href = 'Finances-Taxes1-Course.html';">
+				<div class="elementName" id="elementName1">1) Introduction</div>
+				<div class="checkBox" id="box1"></div>
+				<div class="tick" id="tick1"></div>
+			</div>
+			<div class="element" id="element2" onclick="location.href = 'Finances-Taxes2-Course.html';">
+				<div class="elementName" id="elementName2">2) Saving</div>
+				<div class="checkBox" id="box2"></div>
+				<div class="tick" id="tick2"></div>
+			</div>
+			<div class="element" id="element3" onclick="location.href = 'Finances-Taxes3-Course.html';">
+				<div class="elementName" id="elementName3">3) Conclusion</div>
+				<div class="checkBox" id="box3"></div>
+				<div class="tick" id="tick3"></div>
+			</div>
+		</div>
+		<div id="nextButton" onclick="courseComplete()">Finish!</div>
+		<div id="bottomBar"></div>
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-app.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+			 https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-analytics.js"></script>
+
+		<script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-auth.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-firestore.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-database.js"></script>
+
+		<script>
+			// Your web app's Firebase configuration
+			var firebaseConfig = {
+			apiKey: "AIzaSyBGrL_6FN7WSK3kT8xU5WxMihS5e0GQLSk",
+			authDomain: "financeweb-9ec38.firebaseapp.com",
+			databaseURL: "https://financeweb-9ec38.firebaseio.com/",
+			projectId: "financeweb-9ec38",
+			storageBucket: "financeweb-9ec38.appspot.com",
+			messagingSenderId: "235672800753",
+			appId: "1:235672800753:web:a6bde5424c4486d5118850",
+			measurementId: "G-T3PJZ5XGPB"
+			};
+			// Initialize Firebase
+			firebase.initializeApp(firebaseConfig);
+			firebase.analytics();
+		</script>
+		<script src="C:\Users\rzemi\OneDrive\Desktop\web\Scripts\taxesCourse3.js"></script>
+		<script src="C:\Users\rzemi\OneDrive\Desktop\web\Scripts\profileButton-script.js"></script>
+	</body>
+</html>

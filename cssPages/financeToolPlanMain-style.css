@@ -1,0 +1,89 @@
+#incomeLabel {
+  position: absolute;
+  font-family: 'Roboto';font-size: 2vw; color: #2F2F2F;
+  top: 60%;
+  left: 20%;
+}
+
+#expensesLabel {
+  position: absolute;
+  font-family: 'Roboto';font-size: 2vw; color: #2F2F2F;
+  top: 68%;
+  left: 20%;
+}
+
+#cashFlowUpdateButton {
+  position: absolute;
+  font-family: 'Roboto';font-size: 2vw; color: white;
+  height: 3.5vw;
+  width: 8vw;
+  background-color: #F56A00;
+  text-align: center;
+  top: 170%;
+  right: 35%;
+  border-radius: 10%;
+}
+
+#pic1 {
+  position: absolute;
+  width: 15vw;
+  height: 15vw;
+  right: 30%;
+  top: 60%;
+  background-image: url("money.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+#investmentTable {
+  position: absolute;
+  top: 85%;
+  left: 20%;
+  width: 20vw;
+  height: 40vh;
+  font-family: 'Roboto';font-size: 2vw; color: #2F2F2F;
+  text-align: center;
+}
+
+.pt-3-half {
+  padding-top: 1.4rem;
+  border-top: solid;
+  text-align: center;
+}
+
+.info {
+  background-image: url("info.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  height: 5vh;
+  width: 5vh;
+}
+
+#expensesTable {
+  position: absolute;
+  top: 95%;
+  right: 30%;
+  width: 20vw;
+  height: 40vh;
+  font-family: 'Roboto';font-size: 2vw; color: #2F2F2F;
+  text-align: center;
+}
+
+#bottomBar {
+	width: 100%;
+	background-color: gray;
+	height: 6vh;
+	top: 200vh;
+	position: absolute;
+}
+
+#description {
+  position: absolute;
+  text-align: center;
+  font-family: 'Roboto';font-size: 2vw; color: #2F2F2F;
+  width: 20vw;
+  top: 140%;
+  right: 30%;
+}

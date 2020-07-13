@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+	<title>
+		Welcome Page
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</title>
+	<body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="C:\Users\rzemi\OneDrive\Desktop\web\cssPages\WelcomeStyle.css">
+		<link rel="stylesheet" href="C:\Users\rzemi\OneDrive\Desktop\web\cssPages\banner.css">
+		<div class="headBanner" id="headBanner">
+			<div class="headBannerIn">
+				<div id="logo" onclick="location.href = 'Welcome.html';"></div>
+				<button type="button" id="choice2" onclick="location.href = 'InvestingHome.html';">Investing</button>
+				<button type="button" id="choice3" onclick="location.href = 'EarlyStartHome.html';">Early Start</button>
+				<button type="button" id="choice4" onclick="location.href = 'RetirementHome.html';">Retirement</button>
+				<button type="button" id="choice5">Community</button>
+				<div id="tab1"></div>
+				<div id="tab2"></div>
+				<div id="tab3"></div>
+				<div id="tab4"></div>
+				<div id="tab5"></div>
+				<button type="button" id="loginButton"></button>
+			</div>
+			<div class="dropdown" id="dropdown">
+					<button class="dropbtn" type="button" id="financeChoice" onclick="location.href = 'FinancesHome.html';">
+							Finance
+							<i class="fa fa-caret-down"></i>
+					</button>
+						<div class="dropdown-content">
+								<div id="topDropdown">
+										<div class="innerSpace" id="innerSpace1">
+											<h2 id="coursesHead">Courses</h2>
+											<ol id="coursesList">
+												<li onclick="location.href = 'Finances-intro1-Course.html';">Introduction</li>
+												<li onclick="location.href = 'Finances-TandP1-Course.html';">Tracking And Planning</li>
+												<li onclick="location.href = 'Finances-CDB1-Course.html';">Credit, Debt and Banking</li>
+												<li onclick="location.href = 'Finances-Savings1-Course.html';">Saving</li>
+												<li onclick="location.href = 'Finances-Taxes1-Course.html';">Taxes</li>
+										</ol>
+								</div>
+								<div class="innerSpace" id="innerSpace2">
+										<h2 id="toolsHead" onclick="location.href = 'financeToolOverview.html';">Financial Tool</h2>
+								</div>
+								<div class="innerSpace" id="innerSpace3">
+										<h2 id="articlesHead">Articles</h2>
+								</div>
+							</div>
+						</div>
+				</div>
+		</div>
+    <div id="topWelcome">
+			<div id="topWelcomeWriting">Hey guys, you ready to get you're finincial freedom on its way? <br>...</div>
+			<div id="topSemi"></div>
+			<div id="bottomSemi"></div>
+		</div>
+    <div class="row" id="row-1">
+      <div class="col-1">
+
+      </div>
+      <div class="col-2">
+        <h1 id="pageHeader"></h1>
+    		<b class="paragraph" id="paragraph1">
+    			One sportsman tolerably him extensive put she immediate. He abroad of cannot looked in.
+    			<br>
+    			<br>
+    			Continuing interested ten stimulated prosperous frequently all boisterous nay. Of oh really he extent horses wicket.
+    			<br>
+    			<br>
+    			Arrival entered an if drawing request. How daughters not promotion few knowledge contented.
+    			<br>
+    			Yet winter law behind number stairs garret excuse. Minuter we natural conduct gravity if pointed oh no.
+    			<br>
+    			<br>
+    			Am immediate unwilling of attempted admitting disposing it. Handsome opinions on am at it ladyship.
+    			Seen you eyes son show.
+    			<br>
+    			<br>
+    			Far two unaffected one alteration apartments celebrated but middletons interested.
+    			Described deficient applauded consisted my me do. Passed edward two talent effect seemed engage six.
+    			<br>
+    			<br>
+    			On ye great do child sorry lived. Proceed cottage far letters ashamed get clothes day.
+    			Stairs regret at if matter to. On as needed almost at basket remain.
+    			By improved sensible servants children striking in surprise.
+    		</b>
+    		<h1 id="featuresTitle">Features</h1>
+    		<ul id="featuresList">
+    			<li class="feature">Information about the platform</li>
+    			<li class="feature">Finances (recording, planning, ...)</li>
+    			<li class="feature">Long term investments. (stocks, bonds, indexes, ...)</li>
+    			<li class="feature">Short term trading/ investing. (forex, stocks, ...)</li>
+    		</ul>
+        <div id="chartImg"></div>
+    		<b class="paragraph" id="paragraph5">
+    			Arrival entered an if drawing request. How daughters not promotion few knowledge contented.
+    			Yet winter law behind number stairs garret excuse. Minuter we natural conduct gravity if pointed oh no.
+    		</b>
+
+    		<h1 id="whyTitle">Why Us?</h1>
+    		<b class="paragraph" id="paragraph6">
+    			Sex reached suppose our whether. Oh really by an manner sister so. One sportsman tolerably him extensive put she immediate. He abroad of cannot looked in.
+    			Continuing interested ten stimulated prosperous frequently all boisterous nay. Of oh really he extent horses wicket.
+    			<br>
+    			<br>
+    			Arrival entered an if drawing request. How daughters not promotion few knowledge contented.
+    			Yet winter law behind number stairs garret excuse. Minuter we natural conduct gravity if pointed oh no.
+    			<br>
+    			<br>
+    			On ye great do child sorry lived. Proceed cottage far letters ashamed get clothes day.
+    			Stairs regret at if matter to. On as needed almost at basket remain.
+    			By improved sensible servants children striking in surprise.
+    		</b>
+      </div>
+      <div class="col-3">
+        <div class="promoContainer" id="promoContainer1">
+    			<div class="promoHeader">
+    				<div class="promoHeaderTop"></div>
+    				<div class="promoTitle">Finance Tool</div>
+    				<div class="promoFiller"></div>
+    			</div>
+    			<div class="promoContent">
+    				<div class="promoDescription">Get planning with you personal finance tools</div>
+    				<div class="promoPic" id="promoPic1"></div>
+    				<div class="viewButton" id="viewButton1" onclick="location.href = 'financeToolOverview.html';">View</div>
+    			</div>
+    		</div>
+    		<div class="promoContainer" id="promoContainer2">
+    			<div class="promoHeader">
+    				<div class="promoHeaderTop"></div>
+    				<div class="promoTitle">Finance Course</div>
+    				<div class="promoFiller"></div>
+    			</div>
+    			<div class="promoContent">
+    				<div class="promoDescription">Get to grips with the much needed basics</div>
+    				<div class="promoPic" id="promoPic2"></div>
+    				<div class="viewButton" id="viewButton2" onclick="location.href = 'Finances-intro1-Course.html';">Begin</div>
+    			</div>
+    		</div>
+      </div>
+    </div>
+    <div class="row" id="row-2">
+      <div class="col-4">
+        <div id="secondaryHeader">
+    			<div id="secondaryHeaderBlock">
+    				<div class="secondaryHeaderElement" id="financesDescription">Finances</div>
+    				<div class="secondaryHeaderElement" id="investingDescription">Investing</div>
+    				<div class="secondaryHeaderElement" id="earlyStartDescription">Early Start</div>
+    				<div class="secondaryHeaderElement" id="retirementDescription">Retirement</div>
+    				<div class="secondaryHeaderElement" id="communityDescription">Community</div>
+    			</div>
+    		</div>
+      </div>
+    </div>
+    <div class="row" id="row-3">
+      <div class="col-5"></div>
+      <div class="col-6">
+        <h1 id="tempTitle">Why Us?</h1>
+    		<b class="paragraph" id="tempParagraph">
+    			Arrival entered an if drawing request. How daughters not promotion few knowledge contented.
+    			Yet winter law behind number stairs garret excuse. Minuter we natural conduct gravity if pointed oh no.
+    			<br>
+    			<br>
+    			On ye great do child sorry lived. Proceed cottage far letters ashamed get clothes day.
+    			Stairs regret at if matter to. On as needed almost at basket remain.
+    			By improved sensible servants children striking in surprise.
+    			<br>
+    			<br>
+    			Arrival entered an if drawing request. How daughters not promotion few knowledge contented.
+    			Yet winter law behind number stairs garret excuse. Minuter we natural conduct gravity if pointed oh no.
+    		</b>
+      </div>
+      <div class="col-7"></div>
+    </div>
+    <div class="row" id="row-4">
+      <div class="col-8">
+	       <div id="bottomBar"></div>
+      </div>
+    </div>
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-app.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+			 https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-analytics.js"></script>
+
+		<script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-auth.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-firestore.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-database.js"></script>
+
+		<script>
+			// Your web app's Firebase configuration
+			var firebaseConfig = {
+			apiKey: "AIzaSyBGrL_6FN7WSK3kT8xU5WxMihS5e0GQLSk",
+			authDomain: "financeweb-9ec38.firebaseapp.com",
+			databaseURL: "https://financeweb-9ec38.firebaseio.com/",
+			projectId: "financeweb-9ec38",
+			storageBucket: "financeweb-9ec38.appspot.com",
+			messagingSenderId: "235672800753",
+			appId: "1:235672800753:web:a6bde5424c4486d5118850",
+			measurementId: "G-T3PJZ5XGPB"
+			};
+			// Initialize Firebase
+			firebase.initializeApp(firebaseConfig);
+			firebase.analytics();
+		</script>
+		<script>
+		$(function() {
+		  $('#dropdown').hover(function() {
+		    $('#tab1').css('background-color', '#8FC4FF');
+		  }, function() {
+		    // on mouseout, reset the background colour
+		    $('#tab1').css('background-color', '');
+		  	});
+		});
+		</script>
+
+		<script src="C:\Users\rzemi\OneDrive\Desktop\web\Scripts\welcomePage-script.js"></script>
+		<script src="C:\Users\rzemi\OneDrive\Desktop\web\Scripts\profileButton-script.js"></script>
+	</body>
+</html>

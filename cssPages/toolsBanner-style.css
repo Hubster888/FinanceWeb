@@ -1,0 +1,72 @@
+#headerChoices {
+  position: relative;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 40vh;
+  background-color: #CCE4FF;
+}
+
+.toolChoice {
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  width: 20%;
+  background-color: transparent;
+}
+
+#toolChoice1 {
+  left: 20%;
+}
+
+#toolChoice2 {
+  left: 40%;
+}
+
+#toolChoice3 {
+  left: 60%;
+}
+
+.toolChoicePic {
+  position: absolute;
+  top: 8%;
+  width: 10vw;
+  height: 10vw;
+  left: 50%;
+  margin-left: -5vw;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}
+
+#toolChoicePic1 {
+  background-image: url("overview.png");
+  background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
+}
+
+#toolChoicePic2 {
+  background-image: url("record.png");
+  background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
+}
+
+#toolChoicePic3 {
+  background-image: url("plan.png");
+  background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
+}
+
+.toolChoiceTitle {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 20%;
+  font-family: 'Roboto';font-size: 3.5vw; color: #2F2F2F;
+  top: 70%;
+  left: 0%;
+}

@@ -1,0 +1,195 @@
+body {
+	background-color: #F2F2F2;
+	background-size: cover;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#banner {
+  width: 100%;
+  height: 20vh;
+  top: 0%;
+  left: 0%;
+  background-color: #007AFF;
+  font-family: 'Roboto';font-size: 5vw; color: white;
+  text-align: center;
+  line-height: 10vw;
+}
+
+#illustration {
+  position: absolute;
+  left: 0%;
+  height: 170%;
+  top: 20vh;
+  background-color: gray;
+  width: 20vw;
+}
+
+.section {
+  position: absolute;
+  width: 60vw;
+  right: 0%;
+  height: 20vh;
+  background-color: #CCE4FF;
+}
+
+#section1 {
+  top: 25vh;
+}
+
+#section2 {
+  top: 45vh;
+  background-color: #66AEFF;
+}
+
+#section3 {
+  top: 65vh;
+}
+
+#section4 {
+  top: 85vh;
+  background-color: #66AEFF;
+}
+
+#section5 {
+  top: 105vh;
+}
+
+#section6 {
+  top: 125vh;
+  background-color: #66AEFF;
+}
+
+#section7 {
+  top: 145vh;
+}
+
+.infoButton {
+  background-image: url("info.png");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
+  height: 6vh;
+  width: 6vh;
+  left: 35%;
+  position: absolute;
+}
+
+#info1 {
+  top: 32vh;
+}
+
+#info2 {
+  top: 52vh;
+}
+
+#info3 {
+  top: 72vh;
+}
+
+#info4 {
+  top: 92vh;
+}
+
+#info5 {
+  top: 112vh;
+}
+
+#info6 {
+  top: 132vh;
+}
+
+#info7 {
+  top: 152vh;
+}
+
+.sectionTitle {
+  position: relative;
+  top: 5%;
+  left: 5%;
+  font-family: 'Roboto';font-size: 3vw; color: #2F2F2F;
+}
+
+.inputBox {
+  position: relative;
+  margin-top: 2.5%;
+  height: 5vh;
+  width: 15vw;
+  left: 5%;
+}
+
+.enter {
+  position: relative;
+  left: 50%;
+  top: -50%;
+  height: 5vw;
+  width: 5vw;
+  background-image: url("enter.png");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
+}
+
+#sectionTitle6 {
+  font-family: 'Roboto';font-size: 2vw; color: #2F2F2F;
+}
+
+#notesBox {
+  width: 90%;
+}
+
+#submitButton {
+  width: 30%;
+  height: 10%;
+  position: absolute;
+  top: 170vh;
+  left: 50%;
+  background-color: #1DBF2D;
+  text-align: center;
+  font-family: 'Roboto';font-size: 5vw; color: white;
+  line-height: 5vw;
+}
+
+#choiceContainer {
+  position: relative;
+  width: 80%;
+  height: 60%;
+  left: 10%;
+  margin-top: 1%;
+  background-color: transparent;
+}
+
+.performanceChoice {
+  position: relative;
+  display: inline-block;
+  width: 6vw;
+  height: 6vw;
+  background-color: green;
+  border-radius: 50%;
+  margin-left: 5%;
+  text-align: center;
+  font-family: 'Roboto';font-size: 5vw; color: white;
+}
+
+#performance1 {
+  background-color: #CE0F0F;
+}
+
+#performance2 {
+  background-color: #D68711;
+}
+
+#performance3 {
+  background-color: #C2C615;
+}
+
+#performance4 {
+  background-color: #91C02D;
+}
+
+#performance5 {
+  background-color: #2CD447;
+}

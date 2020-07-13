@@ -1,0 +1,52 @@
+#bigTitle {
+  font-family: 'Roboto';font-size: 10vw; color: #2F2F2F;
+  position: absolute;
+  top: 11%;
+  left: 50%;
+  width: 40.5vw;
+  margin-left: -20.25vw;
+}
+
+#caption {
+  font-family: 'Roboto';font-size: 2vw; color: #2F2F2F;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  width: 33.5vw;
+  margin-left: -16.75vw;
+}
+
+#thumbPic {
+  position: absolute;
+  top: 45%;
+  left: 49%;
+  width: 25vw;
+	height: 25vw;
+  margin-left: -12.5vw;
+  background-image: url("thumbs-up.png");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
+}
+
+#bottomBar {
+	width: 100%;
+	background-color: gray;
+	height: 10vh;
+	top: 100vh;
+	position: absolute;
+	z-index: 2;
+}
+
+#decorationBar {
+  position: absolute;
+  height: 100%;
+  top: 0%;
+  width: 60%;
+  left: 20%;
+  z-index: -1;
+  background-color: #CDD7D6;
+  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<title>
+		Tools Overview
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</title>
+	<body>
+		<link rel="stylesheet" href="C:\Users\rzemi\OneDrive\Desktop\web\cssPages\banner.css">
+    <link rel="stylesheet" href="C:\Users\rzemi\OneDrive\Desktop\web\cssPages\financeToolOverview-style.css">
+    <link rel="stylesheet" href="C:\Users\rzemi\OneDrive\Desktop\web\cssPages\toolsBanner-style.css">
+		<div id="pageCover"></div>
+		<div class="headBanner">
+			<div id="logo" onclick="location.href = 'Welcome.html';"></div>
+			<div class="dropdown">
+				<button class="dropbtn" type="button" id="financeChoice" onclick="location.href = 'FinancesHome.html';">
+					Finance
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<div id="topDropdown">
+						<div class="innerSpace" id="innerSpace1">
+							<h2 id="coursesHead">Courses</h2>
+							<ol id="coursesList">
+								<li onclick="location.href = 'Finances-intro1-Course.html';">Introduction</li>
+								<li onclick="location.href = 'Finances-TandP1-Course.html';">Tracking And Planning</li>
+								<li onclick="location.href = 'Finances-CDB1-Course.html';">Credit, Debt and Banking</li>
+								<li onclick="location.href = 'Finances-Savings1-Course.html';">Saving</li>
+								<li onclick="location.href = 'Finances-Taxes1-Course.html';">Taxes</li>
+							</ol>
+						</div>
+						<div class="innerSpace" id="innerSpace2">
+							<h2 id="toolsHead" onclick="location.href = 'financeToolOverview.html';">Financial Tool</h2>
+						</div>
+						<div class="innerSpace" id="innerSpace3">
+							<h2 id="articlesHead">Articles</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button type="button" id="choice2" onclick="location.href = 'InvestingHome.html';">Investing</button>
+			<button type="button" id="choice3" onclick="location.href = 'EarlyStartHome.html';">Early Start</button>
+			<button type="button" id="choice4" onclick="location.href = 'RetirementHome.html';">Retirement</button>
+			<button type="button" id="choice5">Community</button>
+			<div id="tab1"></div>
+			<div id="tab2"></div>
+			<div id="tab3"></div>
+			<div id="tab4"></div>
+			<div id="tab5"></div>
+			<button type="button" id="loginButton"></button>
+		</div>
+    <div id="headerChoices">
+      <div class="toolChoice" id="toolChoice1">
+        <div class="toolChoicePic" id="toolChoicePic1"></div>
+        <div class="toolChoiceTitle" id="toolChoiceTitle1">Overview</div>
+      </div>
+      <div class="toolChoice" id="toolChoice2">
+        <div class="toolChoicePic" id="toolChoicePic2"></div>
+        <div class="toolChoiceTitle" id="toolChoiceTitle2">Recording</div>
+      </div>
+      <div class="toolChoice" id="toolChoice3">
+        <div class="toolChoicePic" id="toolChoicePic3"></div>
+        <div class="toolChoiceTitle" id="toolChoiceTitle3">Planning</div>
+      </div>
+    </div>
+    <div id="title">Overview</div>
+    <div id="overviewContent">
+      Two assure edward whence the was. Who worthy yet ten boy denote wonder.
+      Weeks views her sight old tears sorry. Additions can suspected its concealed put furnished.
+      Met the why particular devonshire decisively considered partiality. Certain it waiting no entered is.
+      Passed her indeed uneasy shy polite appear denied. Oh less girl no walk. At he spot with five of view.
+      Two assure edward whence the was. Who worthy yet ten boy denote wonder.<br>
+      Weeks views her sight old tears sorry. Additions can suspected its concealed put furnished.
+      Met the why particular devonshire decisively considered partiality. Certain it waiting no entered is.
+      Passed her indeed uneasy shy polite appear denied. Oh less girl no walk. At he spot with five of view.
+    </div>
+    <div id="graphs"></div>
+    <div id="bottomBar"></div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-app.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+			 https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-analytics.js"></script>
+
+		<script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-auth.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-firestore.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-database.js"></script>
+
+		<script>
+			// Your web app's Firebase configuration
+			var firebaseConfig = {
+			apiKey: "AIzaSyBGrL_6FN7WSK3kT8xU5WxMihS5e0GQLSk",
+			authDomain: "financeweb-9ec38.firebaseapp.com",
+			databaseURL: "https://financeweb-9ec38.firebaseio.com/",
+			projectId: "financeweb-9ec38",
+			storageBucket: "financeweb-9ec38.appspot.com",
+			messagingSenderId: "235672800753",
+			appId: "1:235672800753:web:a6bde5424c4486d5118850",
+			measurementId: "G-T3PJZ5XGPB"
+			};
+			// Initialize Firebase
+			firebase.initializeApp(firebaseConfig);
+			firebase.analytics();
+		</script>
+		<script src="C:\Users\rzemi\OneDrive\Desktop\web\Scripts\financeToolBanner-script.js"></script>
+		<script src="C:\Users\rzemi\OneDrive\Desktop\web\Scripts\profileButton-script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<title>
+		Add New Page
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</title>
+	<body>
+    <link rel="stylesheet" href="C:\Users\rzemi\OneDrive\Desktop\web\cssPages\newRecordForm-style.css">
+    <div id="banner">Add New Record</div>
+		<div id="illustration"></div>
+		<div class="section" id="section1">
+			<div class="sectionTitle" id="sectionTitle1">£ spent on necesseties</div>
+			<input type="text" id="necessetiesBox" name="neccesetiesBox" class="inputBox"><br><br>
+			<div class="enter" id="enter1"></div>
+		</div>
+		<div class="infoButton" id="info1"></div>
+		<div class="section" id="section2">
+			<div class="sectionTitle" id="sectionTitle2">£ spent on luxuries</div>
+			<input type="text" id="luxuriesBox" name="luxuriesBox" class="inputBox"><br><br>
+			<div class="enter" id="enter2"></div>
+		</div>
+		<div class="infoButton" id="info2"></div>
+		<div class="section" id="section3">
+			<div class="sectionTitle" id="sectionTitle3">£ spent unexpectadly</div>
+			<input type="text" id="unexpectedBox" name="unexpectedBox" class="inputBox"><br><br>
+			<div class="enter" id="enter3"></div>
+		</div>
+		<div class="infoButton" id="info3"></div>
+		<div class="section" id="section4">
+			<div class="sectionTitle" id="sectionTitle4">£ spent on unusual items</div>
+			<input type="text" id="unusualBox" name="unusualBox" class="inputBox"><br><br>
+			<div class="enter" id="enter4"></div>
+		</div>
+		<div class="infoButton" id="info4"></div>
+		<div class="section" id="section5">
+			<div class="sectionTitle" id="sectionTitle5">£ saved</div>
+			<input type="text" id="savedBox" name="savedBox" class="inputBox"><br><br>
+			<div class="enter" id="enter5"></div>
+		</div>
+		<div class="infoButton" id="info5"></div>
+		<div class="section" id="section6">
+			<div class="sectionTitle" id="sectionTitle6">performance rating</div>
+			<div id="choiceContainer">
+				<div id="performance1" class="performanceChoice">1</div>
+				<div id="performance2" class="performanceChoice">2</div>
+				<div id="performance3" class="performanceChoice">3</div>
+				<div id="performance4" class="performanceChoice">4</div>
+				<div id="performance5" class="performanceChoice">5</div>
+			</div>
+		</div>
+		<div class="infoButton" id="info6"></div>
+		<div class="section" id="section7">
+			<div class="sectionTitle" id="sectionTitle7">Notes:</div>
+			<input type="text" id="notesBox" name="notesBox" class="inputBox"><br><br>
+		</div>
+		<div class="infoButton" id="info7"></div>
+		<div id="submitButton">Submit</div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-app.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+			 https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-analytics.js"></script>
+
+		<script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-auth.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-firestore.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-database.js"></script>
+
+		<script>
+			// Your web app's Firebase configuration
+			var firebaseConfig = {
+			apiKey: "AIzaSyBGrL_6FN7WSK3kT8xU5WxMihS5e0GQLSk",
+			authDomain: "financeweb-9ec38.firebaseapp.com",
+			databaseURL: "https://financeweb-9ec38.firebaseio.com/",
+			projectId: "financeweb-9ec38",
+			storageBucket: "financeweb-9ec38.appspot.com",
+			messagingSenderId: "235672800753",
+			appId: "1:235672800753:web:a6bde5424c4486d5118850",
+			measurementId: "G-T3PJZ5XGPB"
+			};
+			// Initialize Firebase
+			firebase.initializeApp(firebaseConfig);
+			firebase.analytics();
+		</script>
+		<script src="C:\Users\rzemi\OneDrive\Desktop\web\Scripts\newRecordForm-script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,360 @@
+#courseTitle {
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	font-family: 'Roboto';font-size: 4vw; color: #2F2F2F;
+}
+
+#tickBox {
+	position: absolute;
+	width: 3vw;
+	height: 3vw;
+	left: 35%;
+	top: 22%;
+	background-color: transparent;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #1DBF2D;
+}
+
+hr.rounded {
+  border-top: 4px solid #bbb;
+  border-radius: 5px;
+  margin-top: 13%;
+  width: 70%;
+  margin-left: 15%;
+  border-color: #2F2F2F;
+}
+
+#contentContainer {
+	position: absolute;
+	top: 40%;
+	left: 63%;
+	width: 20vw;
+	height: 50vh;
+	background-color: transparent;
+}
+
+.element {
+	position: absolute;
+	left: 5%;
+	width: 90%;
+	height: 10vh;
+	background-color: transparent;
+	border-bottom: 0.5vh solid;
+	border-radius: 10%;
+}
+
+#element1 {
+	top: 1vh;
+}
+
+#element2 {
+	top: 14vh;
+}
+
+#element3 {
+	top: 27vh;
+}
+
+.elementName {
+	position: absolute;
+	font-family: 'Roboto';font-size: 1.5vw; color: #2F2F2F;
+	text-align: center;
+	width: 10vw;
+}
+
+#elementName1 {
+	top: 20%;
+	left: 15%;
+}
+
+#elementName2 {
+	top: 20%;
+	left: 15%;
+}
+
+#elementName3 {
+	top: 20%;
+	left: 15%;
+	font-family: 'Roboto';font-size: 1.5vw; color: #2F2F2F;
+	width: 10vw;
+}
+
+.checkBox {
+	position: absolute;
+	top: 20%;
+	height: 40%;
+	width: 10%;
+	left: 80%;
+	border-style: solid;
+	background-color: transparent;
+
+}
+
+#box1 {
+	border-color: #1DBF2D;
+}
+
+#box2 {
+	border-color: #007AFF;
+}
+
+#box3 {
+	border-color: #1DBF2D;
+}
+
+#sectionTitle {
+	position: absolute;
+	left: 20%;
+	top: 45%;
+	font-family: 'Roboto';font-size: 3vw; color: #2F2F2F;
+}
+
+.paragraph {
+	font-family: 'Roboto';font-size: 1.5vw; color: #2F2F2F;
+	position: absolute;
+	left: 20%;
+	width: 60%;
+	font-weight: bold;
+	line-height: 3.5vh;
+}
+
+#p1 {
+	top: 55%;
+	width: 40%;
+	/*top = pervTop + 3 + (lineNum * 3.5)*/
+}
+
+#p2 {
+	top: 61.25%;
+	width: 40%;
+}
+
+#p3 {
+	top: 78.5%;
+	width: 40%;
+}
+
+#taxCode {
+	position: absolute;
+	left: 20%;
+	top: 88.5%;
+	font-family: 'Roboto';font-size: 2vw; color: #2F2F2F;
+}
+
+#p4 {
+	top: 95%;
+}
+
+#p5 {
+	top: 112%;
+}
+
+#taxCredits {
+	position: absolute;
+	left: 20%;
+	top: 170%;
+	font-family: 'Roboto';font-size: 2vw; color: #2F2F2F;
+}
+
+#p6 {
+	top: 176.5%;
+}
+
+#p7 {
+	top: 193.5%;
+}
+
+#p8 {
+	top: 214%;
+}
+
+#pension {
+	position: absolute;
+	left: 20%;
+	top: 224%;
+	font-family: 'Roboto';font-size: 2vw; color: #2F2F2F;
+}
+
+#p9 {
+	top: 230.5%;
+}
+
+#p10 {
+	top: 240.5%;
+}
+
+#p11 {
+	top: 254%;
+}
+
+#p12 {
+	top: 271%;
+}
+
+#p13 {
+	top: 284.5%;
+}
+
+#councilTax {
+	position: absolute;
+	left: 20%;
+	top: 340%;
+	font-family: 'Roboto';font-size: 2vw; color: #2F2F2F;
+}
+
+#p14 {
+	top: 345.5%;
+}
+
+#p15 {
+	top: 362.5%;
+}
+
+#isa {
+	position: absolute;
+	left: 20%;
+	top: 375%;
+	font-family: 'Roboto';font-size: 2vw; color: #2F2F2F;
+}
+
+#p16 {
+	top: 381.5%;
+}
+
+#p17 {
+	top: 395%;
+}
+
+#p18 {
+	top: 408.5%;
+}
+
+#cgt {
+	position: absolute;
+	left: 20%;
+	top: 422%;
+	font-family: 'Roboto';font-size: 2vw; color: #2F2F2F;
+}
+
+#p19 {
+	top: 428.5%;
+}
+
+#p20 {
+	top: 442%;
+}
+
+#p21 {
+	top: 520%;
+}
+
+#list {
+	top: 450%;
+	position: absolute;
+	left: 23%;
+	width: 37.25%;
+	font-family: 'Roboto';font-size: 1.5vw; color: #2F2F2F;
+	list-style-type: square;
+	font-weight: bold;
+	list-style-position: outside;
+	line-height: 5vh;
+}
+
+#pic1 {
+	position: absolute;
+	top: 118.5%;
+	left:20%;
+	background-image: url("personalFinance.png");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
+	width: 20vw;
+	height: 20vw;
+}
+
+#pic2 {
+	position: absolute;
+	top: 294.5%;
+	left:20%;
+	background-image: url("retirement.png");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
+	width: 20vw;
+	height: 20vw;
+}
+
+#pic3 {
+	position: absolute;
+	top: 485%;
+	left: 30%;
+	background-image: url("taxSave.png");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
+	width: 15vw;
+	height: 15vw;
+}
+
+#bottomBar {
+	width: 100%;
+	background-color: gray;
+	height: 6vh;
+	top: 570vh;
+	position: absolute;
+}
+
+.tick {
+	position: absolute;
+	background-image: url("tick.png");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
+	width: 7vh;
+	height: 7vh;
+	top: 0%;
+	left: 80%;
+	z-index: 11;
+}
+
+#tick1 {
+	opacity: 0;
+}
+
+#tick2 {
+	opacity: 0;
+}
+
+#tick3 {
+	opacity: 0;
+}
+
+#nextButton {
+	position: absolute;
+	background-color: #E56F0E;
+	width: 15vw;
+	height: 10vh;
+	top: 545vh;
+	left: 50%;
+	margin-left: -7.5vw;
+	z-index: 11;
+	border-radius: 15%;
+	text-align: center;
+	font-family: 'Roboto';font-size: 4vw; color: white;
+}
+
+#overallTick{
+	position: absolute;
+	background-image: url("tick.png");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
+	width: 10vh;
+	height: 10vh;
+	top: -50%;
+	left: 0%;
+	z-index: 11;
+	opacity: 0;
+}

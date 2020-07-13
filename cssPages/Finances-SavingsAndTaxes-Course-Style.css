@@ -1,0 +1,141 @@
+#courseTitle {
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	font-family: 'Roboto';font-size: 4vw; color: #2F2F2F;
+}
+
+#tickBox {
+	position: absolute;
+	width: 3vw;
+	height: 3vw;
+	left: 60%;
+	top: 22%;
+	background-color: transparent;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #1DBF2D;
+}
+
+hr.rounded {
+  border-top: 4px solid #bbb;
+  border-radius: 5px;
+  margin-top: 13%;
+  width: 70%;
+  margin-left: 15%;
+  border-color: #2F2F2F;
+}
+
+#contentContainer {
+	position: absolute;
+	top: 40%;
+	left: 63%;
+	width: 20vw;
+	height: 50vh;
+	background-color: transparent;
+}
+
+.element {
+	position: absolute;
+	left: 5%;
+	width: 90%;
+	height: 10vh;
+	background-color: transparent;
+	border-bottom: 0.5vh solid;
+	border-radius: 10%;
+}
+
+#element1 {
+	top: 1vh;
+}
+
+#element2 {
+	top: 14vh;
+}
+
+#element3 {
+	top: 27vh;
+}
+
+#element4 {
+	top: 40vh;
+}
+
+#element5 {
+	top: 53vh;
+}
+
+.elementName {
+	position: absolute;
+	font-family: 'Roboto';font-size: 1.5vw; color: #2F2F2F;
+	text-align: center;
+}
+
+#elementName1 {
+	top: 20%;
+	left: 25%;
+}
+
+#elementName2 {
+	top: 20%;
+	left: 26%;
+}
+
+#elementName3 {
+	top: 10%;
+	left: 20%;
+	font-family: 'Roboto';font-size: 1.5vw; color: #2F2F2F;
+	width: 10vw;
+}
+
+#elementName4 {
+	top: 10%;
+	left: 20%;
+	font-family: 'Roboto';font-size: 1.5vw; color: #2F2F2F;
+	width: 10vw;
+}
+
+#elementName5 {
+	top: 20%;
+	left: 20%;
+	font-family: 'Roboto';font-size: 1.5vw; color: #2F2F2F;
+}
+
+.checkBox {
+	position: absolute;
+	top: 30%;
+	height: 40%;
+	width: 10%;
+	left: 80%;
+	border-style: solid;
+	background-color: transparent;
+
+}
+
+#box1 {
+	border-color: #1DBF2D;
+}
+
+#box2 {
+	border-color: #007AFF;
+}
+
+#box3 {
+	border-color: #1DBF2D;
+}
+
+#box4 {
+	border-color: #007AFF;
+}
+
+#box5 {
+	border-color: #1DBF2D;
+}
+
+#bottomBar {
+	width: 100%;
+	background-color: gray;
+	height: 6vh;
+	top: 150vh;
+	position: absolute;
+}

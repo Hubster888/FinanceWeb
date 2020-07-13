@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	<title>
+		Retirement Home
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</title>
+	<body>
+		<link rel="stylesheet" href="C:\Users\rzemi\OneDrive\Desktop\web\cssPages\RetirementHomeStyle.css">
+		<link rel="stylesheet" href="C:\Users\rzemi\OneDrive\Desktop\web\cssPages\banner.css">
+		<div class="headBanner" id="headBanner">
+			<div class="headBannerIn">
+				<div id="logo" onclick="location.href = 'Welcome.html';"></div>
+				<button type="button" id="choice2" onclick="location.href = 'InvestingHome.html';">Investing</button>
+				<button type="button" id="choice3" onclick="location.href = 'EarlyStartHome.html';">Early Start</button>
+				<button type="button" id="choice4" onclick="location.href = 'RetirementHome.html';">Retirement</button>
+				<button type="button" id="choice5">Community</button>
+				<div id="tab1"></div>
+				<div id="tab2"></div>
+				<div id="tab3"></div>
+				<div id="tab4"></div>
+				<div id="tab5"></div>
+				<button type="button" id="loginButton"></button>
+			</div>
+			<div class="dropdown" id="dropdown">
+					<button class="dropbtn" type="button" id="financeChoice" onclick="location.href = 'FinancesHome.html';">
+							Finance
+							<i class="fa fa-caret-down"></i>
+					</button>
+						<div class="dropdown-content">
+								<div id="topDropdown">
+										<div class="innerSpace" id="innerSpace1">
+											<h2 id="coursesHead">Courses</h2>
+											<ol id="coursesList">
+												<li onclick="location.href = 'Finances-intro1-Course.html';">Introduction</li>
+												<li onclick="location.href = 'Finances-TandP1-Course.html';">Tracking And Planning</li>
+												<li onclick="location.href = 'Finances-CDB1-Course.html';">Credit, Debt and Banking</li>
+												<li onclick="location.href = 'Finances-Savings1-Course.html';">Saving</li>
+												<li onclick="location.href = 'Finances-Taxes1-Course.html';">Taxes</li>
+										</ol>
+								</div>
+								<div class="innerSpace" id="innerSpace2">
+										<h2 id="toolsHead" onclick="location.href = 'financeToolOverview.html';">Financial Tool</h2>
+								</div>
+								<div class="innerSpace" id="innerSpace3">
+										<h2 id="articlesHead">Articles</h2>
+								</div>
+							</div>
+						</div>
+				</div>
+		</div>
+		<h1 id="pageHeader">Retirement</h1>
+		<b class="paragraph" id="paragraph1">
+			Sex reached suppose our whether. Oh really by an manner sister so. One sportsman tolerably him extensive put she immediate. He abroad of cannot looked in.
+			Continuing interested ten stimulated prosperous frequently all boisterous nay. Of oh really he extent horses wicket.
+			<br>
+			<br>
+			Arrival entered an if drawing request. How daughters not promotion few knowledge contented.
+			Yet winter law behind number stairs garret excuse. Minuter we natural conduct gravity if pointed oh no.
+			<br>
+			<br>
+			Am immediate unwilling of attempted admitting disposing it. Handsome opinions on am at it ladyship.
+			Seen you eyes son show. Far two unaffected one alteration apartments celebrated but middletons interested.
+			Described deficient applauded consisted my me do. Passed edward two talent effect seemed engage six.
+			On ye great do child sorry lived. Proceed cottage far letters ashamed get clothes day.
+			Stairs regret at if matter to. On as needed almost at basket remain.
+			By improved sensible servants children striking in surprise.
+		</b>
+		<iframe id="video" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+		<h2 id="contentHead">Content</h2>
+		<div id="contentContainer">
+			<div class="element" id="element1">
+				<div class="elementImg" id="elementImg1"></div>
+				<div class="elementName">Part 1</div>
+				<div class="checkBox" id="box1"></div>
+			</div>
+			<div class="element" id="element2">
+				<div class="elementImg" id="elementImg2"></div>
+				<div class="elementName">Part 2</div>
+				<div class="checkBox" id="box2"></div>
+			</div>
+			<div class="element" id="element3">
+				<div class="elementImg" id="elementImg3"></div>
+				<div class="elementName">Part 3</div>
+				<div class="checkBox" id="box3"></div>
+			</div>
+			<div class="element" id="element4">
+				<div class="elementImg" id="elementImg4"></div>
+				<div class="elementName">Part 4</div>
+				<div class="checkBox" id="box4"></div>
+			</div>
+			<div class="element" id="element5">
+				<div class="elementImg" id="elementImg5"></div>
+				<div class="elementName">Part 5</div>
+				<div class="checkBox" id="box5"></div>
+			</div>
+		</div>
+		<div id="bottomBar"></div>
+		<div class="textBlockShader" id="topShader"></div>
+
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-app.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+			 https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-analytics.js"></script>
+
+		<script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-auth.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-firestore.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-database.js"></script>
+
+		<script>
+			// Your web app's Firebase configuration
+			var firebaseConfig = {
+			apiKey: "AIzaSyBGrL_6FN7WSK3kT8xU5WxMihS5e0GQLSk",
+			authDomain: "financeweb-9ec38.firebaseapp.com",
+			databaseURL: "https://financeweb-9ec38.firebaseio.com/",
+			projectId: "financeweb-9ec38",
+			storageBucket: "financeweb-9ec38.appspot.com",
+			messagingSenderId: "235672800753",
+			appId: "1:235672800753:web:a6bde5424c4486d5118850",
+			measurementId: "G-T3PJZ5XGPB"
+			};
+			// Initialize Firebase
+			firebase.initializeApp(firebaseConfig);
+			firebase.analytics();
+		</script>
+		<script src="C:\Users\rzemi\OneDrive\Desktop\web\Scripts\profileButton-script.js"></script>
+	</body>
+</html>
