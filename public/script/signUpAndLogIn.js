@@ -22,7 +22,7 @@
        // [START authwithemail]
        firebase.auth().signInWithEmailAndPassword(email, password)
        .then(function(user) {
-         document.location.href = "Welcome.html";
+         document.location.href = "index.html";
        })
        .catch(function(error) {
          // Handle Errors here.
@@ -40,7 +40,7 @@
        // [END authwithemail]
      }
      if(firebase.auth().currentUser) {
-       document.location.href = "welcome.html";
+       document.location.href = "index.html";
      }
    }
 

@@ -7,20 +7,20 @@
 	</title>
 	<body>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<link rel="stylesheet" href="C:\Users\rzemi\OneDrive\Desktop\web\cssPages\WelcomeStyle.css">
-		<link rel="stylesheet" href="C:\Users\rzemi\OneDrive\Desktop\web\cssPages\banner.css">
+		<link rel="stylesheet" href="C:\Users\rzemi\OneDrive\Desktop\FinanceFreedom\web\public\css\WelcomeStyle.css">
+		<link rel="stylesheet" href="C:\Users\rzemi\OneDrive\Desktop\FinanceFreedom\web\public\css\banner.css">
 		<div class="headBanner" id="headBanner">
 			<div class="headBannerIn">
-				<div id="logo" onclick="location.href = 'Welcome.html';"></div>
-				<button type="button" id="choice2" onclick="location.href = 'InvestingHome.html';">Investing</button>
-				<button type="button" id="choice3" onclick="location.href = 'EarlyStartHome.html';">Early Start</button>
-				<button type="button" id="choice4" onclick="location.href = 'RetirementHome.html';">Retirement</button>
-				<button type="button" id="choice5">Community</button>
-				<div id="tab1"></div>
-				<div id="tab2"></div>
-				<div id="tab3"></div>
-				<div id="tab4"></div>
-				<div id="tab5"></div>
+				<div id="logo" onclick="location.href = 'index.html';"></div>
+				<button type="button" id="investingChoice" onclick="location.href = 'InvestingHome.html';">Investing</button>
+				<button type="button" id="earlyStartChcoice" onclick="location.href = 'EarlyStartHome.html';">Early Start</button>
+				<button type="button" id="retirementChoice" onclick="location.href = 'RetirementHome.html';">Retirement</button>
+				<button type="button" id="communityChoice">Community</button>
+				<div id="tab1" class="tab"></div>
+				<div id="tab2" class="tab"></div>
+				<div id="tab3" class="tab"></div>
+				<div id="tab4" class="tab"></div>
+				<div id="tab5" class="tab"></div>
 				<button type="button" id="loginButton"></button>
 			</div>
 			<div class="dropdown" id="dropdown">
@@ -50,14 +50,17 @@
 						</div>
 				</div>
 		</div>
-    <div id="topWelcome">
-			<div id="topWelcomeWriting">Hey guys, you ready to get you're finincial freedom on its way? <br>...</div>
-			<div id="topSemi"></div>
-			<div id="bottomSemi"></div>
+		<div class="row" id="row-0">
+			<div class="col-0">
+				<div id="topWelcome">
+					<div id="topWelcomeWriting">Hey guys, you ready to get you're finincial freedom on its way? <br>...</div>
+					<div id="topSemi"></div>
+					<div id="bottomSemi"></div>
+				</div>
+			</div>
 		</div>
     <div class="row" id="row-1">
       <div class="col-1">
-
       </div>
       <div class="col-2">
         <h1 id="pageHeader"></h1>
@@ -142,19 +145,21 @@
     </div>
     <div class="row" id="row-2">
       <div class="col-4">
-        <div id="secondaryHeader">
-    			<div id="secondaryHeaderBlock">
-    				<div class="secondaryHeaderElement" id="financesDescription">Finances</div>
-    				<div class="secondaryHeaderElement" id="investingDescription">Investing</div>
-    				<div class="secondaryHeaderElement" id="earlyStartDescription">Early Start</div>
-    				<div class="secondaryHeaderElement" id="retirementDescription">Retirement</div>
-    				<div class="secondaryHeaderElement" id="communityDescription">Community</div>
-    			</div>
-    		</div>
-      </div>
+				<div class="secondaryDropdown">
+				  <input id="secondaryDropcheck" class="secondaryDropcheck" type="checkbox">
+				  <label for="secondaryDropcheck" class="secondaryDropbtn" id="descriptionBar">Finances</label>
+				  <div class="secondaryDropdown-content">
+				    <a id="financesDescription">Finances</a>
+				    <a id="investingDescription">Investing</a>
+				    <a>Early Start</a>
+						<a>Retirement</a>
+				  </div>
+				</div>
+			</div>
     </div>
     <div class="row" id="row-3">
-      <div class="col-5"></div>
+      <div class="col-5">
+			</div>
       <div class="col-6">
         <h1 id="tempTitle">Why Us?</h1>
     		<b class="paragraph" id="tempParagraph">
@@ -180,15 +185,12 @@
     </div>
 		<!-- The core Firebase JS SDK is always required and must be listed first -->
 		<script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-app.js"></script>
-
 		<!-- TODO: Add SDKs for Firebase products that you want to use
 			 https://firebase.google.com/docs/web/setup#available-libraries -->
 		<script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-analytics.js"></script>
-
 		<script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-auth.js"></script>
 		<script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-firestore.js"></script>
 		<script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-database.js"></script>
-
 		<script>
 			// Your web app's Firebase configuration
 			var firebaseConfig = {
@@ -215,8 +217,7 @@
 		  	});
 		});
 		</script>
-
-		<script src="C:\Users\rzemi\OneDrive\Desktop\web\Scripts\welcomePage-script.js"></script>
-		<script src="C:\Users\rzemi\OneDrive\Desktop\web\Scripts\profileButton-script.js"></script>
+		<script src="C:\Users\rzemi\OneDrive\Desktop\FinanceFreedom\web\public\script\welcomePage-script.js"></script>
+		<script src="C:\Users\rzemi\OneDrive\Desktop\FinanceFreedom\web\public\script\profileButton-script.js"></script>
 	</body>
 </html>

@@ -11,20 +11,7 @@ firebase.auth().onAuthStateChanged(function(user) {
     document.getElementById("pageHeader").innerHTML = "Welcome!";
     //No one is signed in!!
   }
-  document.getElementById("financesDescription").style.color = "#FF8500";
-  document.getElementById("financesDescription").style.fontWeight = "bold";
   document.getElementById("tempTitle").innerHTML = "Finances";
-  document.getElementById("tempParagraph").innerHTML = `Arrival entered an if drawing request. How daughters not promotion few knowledge contented.
-  Yet winter law behind number stairs garret excuse. Minuter we natural conduct gravity if pointed oh no.
-  <br>
-  <br>
-  On ye great do child sorry lived. Proceed cottage far letters ashamed get clothes day.
-  Stairs regret at if matter to. On as needed almost at basket remain.
-  By improved sensible servants children striking in surprise.
-  <br>
-  <br>
-  Arrival entered an if drawing request. How daughters not promotion few knowledge contented.
-  Yet winter law behind number stairs garret excuse. Minuter we natural conduct gravity if pointed oh no.`;
 });
 
 window.onscroll = function (e) {
@@ -48,11 +35,9 @@ window.onscroll = function (e) {
 }
 
 document.getElementById("financesDescription").onclick = function(){
-  document.getElementById("investingDescription").style.color = "white";
-  document.getElementById("financesDescription").style.color = "#FF8500";
-  document.getElementById("investingDescription").style.fontWeight = "normal";
-  document.getElementById("financesDescription").style.fontWeight = "bold";
+  document.getElementById("secondaryDropcheck").checked = false;
   document.getElementById("tempTitle").innerHTML = "Finances";
+  document.getElementById("descriptionBar").innerHTML = "Finances";
   document.getElementById("tempParagraph").innerHTML = `Arrival entered an if drawing request. How daughters not promotion few knowledge contented.
   Yet winter law behind number stairs garret excuse. Minuter we natural conduct gravity if pointed oh no.
   <br>
@@ -67,10 +52,8 @@ document.getElementById("financesDescription").onclick = function(){
 };
 
 document.getElementById("investingDescription").onclick = function(){
-  document.getElementById("financesDescription").style.color = "white";
-  document.getElementById("investingDescription").style.color = "#FF8500";
-  document.getElementById("financesDescription").style.fontWeight = "normal";
-  document.getElementById("investingDescription").style.fontWeight = "bold";
+  document.getElementById("secondaryDropcheck").checked = false;
   document.getElementById("tempTitle").innerHTML = "Investing";
+  document.getElementById("descriptionBar").innerHTML = "Investing";
   document.getElementById("tempParagraph").innerHTML = "None";
 };
